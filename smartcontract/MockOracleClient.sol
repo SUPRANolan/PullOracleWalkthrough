@@ -48,6 +48,6 @@ contract MockOracleClient is Ownable{
 
     function updatePullAddress(address oracle_) 
     external onlyOwner {
-        oracle = oracle = ISupraOraclePull(oracle_);
+        oracle = ISupraOraclePull(oracle_);
     }
 }
